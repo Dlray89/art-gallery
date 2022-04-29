@@ -1,0 +1,89 @@
+@import '../utils/variables.scss';
+
+.header-container {
+  background: url("../../assets/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 45em;
+  background-color: black;
+  width: 65%;
+
+  &__content-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    width: 80%;
+    left: 14.9%;
+    top: 15%;
+
+
+    &__title-box {
+      width: 50%;
+
+
+      &--title {
+        color: white;
+        font-size: 8em;
+        text-transform: uppercase;
+        text-align: left;
+        width: 100%;
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 800;
+        animation: $art-title-popin;
+        
+
+        &--spec-text {
+            font-size: 1em;
+            color: black;
+
+        }
+
+      }
+    }
+
+    &__subtext-location-btn {
+        padding: 0em 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 42%;
+
+      &--subtext {
+        font-family: 'Outfit', sans-serif;
+        width: 55%;
+        text-align: left;
+        font-size: 1.5em;
+        margin-bottom: 3em;
+      }
+
+      &--btn {
+        width: 35%;
+        display: flex;
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #d5966c;
+        border: none;
+
+        &__text{
+                color: white;
+                padding: 0 .5em;
+                font-size: 1em;
+                font-family: 'Outfit', sans-serif;
+                text-transform: uppercase;
+                font-weight: bold;
+                cursor: pointer;
+
+        }
+
+        &__icon-box {
+            background-color: black;
+            padding: .5em 1em;
+        }
+      }
+    }
+  }
+}

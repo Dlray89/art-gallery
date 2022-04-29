@@ -1,0 +1,85 @@
+.body-container {
+  padding: 0em 18em;
+  margin-top: 10em;
+
+  &__sub-container-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title-box {
+      text-align: left;
+      &--title {
+        font-size: 3em;
+        text-transform: uppercase;
+        font-family: "Big Shoulders Display", cursive;
+        width: 40%;
+        margin-bottom: 0.3em;
+      }
+
+      &--subtext {
+        width: 50%;
+        font-size: 1.5em;
+        font-family: 'Outfit', sans-serif;
+
+      }
+    }
+
+    &__img-box {
+      &--img {
+      }
+    }
+  }
+
+  &__sub-container-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5em;
+
+    &__img-box {
+      width: 55%;
+
+      &--img {
+        width: 100%;
+      }
+    }
+
+    &__img-and-text {
+      width:42%;
+
+      &__img-box {
+        width: 100%;
+        margin-left: auto;
+        margin-bottom: 2em;
+
+        &--img {
+          width: 100%;
+        }
+      }
+
+      &__title-box {
+        padding: 4.7em 5em;
+        background: black;
+        width: 100%;
+        margin-left: auto;
+        &--title {
+          color: white;
+          font-size: 2.5em;
+          text-transform: uppercase;
+          text-align: left;
+          margin-bottom: 1em;
+        }
+
+        &--subtext {
+          text-align: left;
+          font-size: 1.5em;
+          width: 100%;
+          color: white;
+          font-family: 'Outfit', sans-serif;
+
+        }
+      }
+    }
+  }
+}

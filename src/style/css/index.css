@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16.65px;
+}
+
+@keyframes pop-in {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+    transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+.header-container {
+  background: url("../../assets/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 45em;
+  background-color: black;
+  width: 65%;
+}
+.header-container__content-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  width: 80%;
+  left: 14.9%;
+  top: 15%;
+}
+.header-container__content-box__title-box {
+  width: 50%;
+}
+.header-container__content-box__title-box--title {
+  color: white;
+  font-size: 8em;
+  text-transform: uppercase;
+  text-align: left;
+  width: 100%;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 800;
+  animation: pop-in 4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.header-container__content-box__title-box--title--spec-text {
+  font-size: 1em;
+  color: black;
+}
+.header-container__content-box__subtext-location-btn {
+  padding: 0em 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 42%;
+}
+.header-container__content-box__subtext-location-btn--subtext {
+  font-family: "Outfit", sans-serif;
+  width: 55%;
+  text-align: left;
+  font-size: 1.5em;
+  margin-bottom: 3em;
+}
+.header-container__content-box__subtext-location-btn--btn {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: #d5966c;
+  border: none;
+}
+.header-container__content-box__subtext-location-btn--btn__text {
+  color: white;
+  padding: 0 0.5em;
+  font-size: 1em;
+  font-family: "Outfit", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.header-container__content-box__subtext-location-btn--btn__icon-box {
+  background-color: black;
+  padding: 0.5em 1em;
+}
+
+.body-container {
+  padding: 0em 18em;
+  margin-top: 10em;
+}
+.body-container__sub-container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-container__sub-container-one__title-box {
+  text-align: left;
+}
+.body-container__sub-container-one__title-box--title {
+  font-size: 3em;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  width: 40%;
+  margin-bottom: 0.3em;
+}
+.body-container__sub-container-one__title-box--subtext {
+  width: 50%;
+  font-size: 1.5em;
+  font-family: "Outfit", sans-serif;
+}
+.body-container__sub-container-two {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+.body-container__sub-container-two__img-box {
+  width: 55%;
+}
+.body-container__sub-container-two__img-box--img {
+  width: 100%;
+}
+.body-container__sub-container-two__img-and-text {
+  width: 42%;
+}
+.body-container__sub-container-two__img-and-text__img-box {
+  width: 100%;
+  margin-left: auto;
+  margin-bottom: 2em;
+}
+.body-container__sub-container-two__img-and-text__img-box--img {
+  width: 100%;
+}
+.body-container__sub-container-two__img-and-text__title-box {
+  padding: 4.7em 5em;
+  background: black;
+  width: 100%;
+  margin-left: auto;
+}
+.body-container__sub-container-two__img-and-text__title-box--title {
+  color: white;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 1em;
+}
+.body-container__sub-container-two__img-and-text__title-box--subtext {
+  text-align: left;
+  font-size: 1.5em;
+  width: 100%;
+  color: white;
+  font-family: "Outfit", sans-serif;
+}
+
+.footer-container {
+  background: black;
+  padding: 4em 18em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15em;
+}
+.footer-container__title-box {
+  text-align: left;
+}
+.footer-container__title-box--title {
+  color: white;
+  font-size: 2.2em;
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+}
+.footer-container__subtext-box {
+  width: 30%;
+  text-align: left;
+}
+.footer-container__subtext-box--subtext {
+  color: white;
+  font-size: 1em;
+}
+.footer-container__social-media-box {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-container__social-media-box__links--link {
+  width: 1.5em;
+}
+
+/*# sourceMappingURL=index.css.map */
