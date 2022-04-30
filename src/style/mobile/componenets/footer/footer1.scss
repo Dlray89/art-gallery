@@ -1,0 +1,49 @@
+@media (max-width: 412px){
+    .footer-container{
+        background: black;
+        padding: 2em 1em;
+        display: flex;
+        flex-direction: column;
+        margin-top: 15em;
+    
+    
+        &__title-box {
+            text-align: left;
+            width: 100%;
+            margin-bottom: 1em;
+    
+            &--title {
+                color: white;
+                font-size: 2em;
+                font-family: 'Big Shoulders Display', cursive;
+                text-transform: uppercase;
+    
+            }
+        }
+    
+        &__subtext-box {
+            text-align: left;
+            width: 100%;
+            margin-bottom: 1em;
+            &--subtext {
+                color: white;
+                font-size: 1em;
+            }
+        }
+    
+        &__social-media-box {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+
+            &__links {
+    
+                &--link {
+                    width: 1.5em;
+                    margin-right: 1.5em;
+                }
+            }
+        }
+    }
+}

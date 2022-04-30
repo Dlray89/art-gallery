@@ -1,4 +1,24 @@
 @import './animations.scss';
 
+
+//colors
+$art-tan: #d5966c;
+$art-black: #151515;
+$art-gallery: #444444;
+$art-white: #ffffff;
+
+//font-family
+$art-header-main: 'Big Shoulders Display', cursive;
+$art-text-font: 'Outfit', sans-serif;
+
+//font sizes
+
+$art-big-font: 3em;
+$art-med-font: 2.5em;
+$art-sm-font: 1.5em;
+$art-xs-font: 1em;
+
 //animations
 $art-title-popin: pop-in 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+$art-fade-in-center: fade-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+$art-slide-in-bottom: slide-in-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
